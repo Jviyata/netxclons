@@ -7,40 +7,68 @@ import ProfileSelector from './components/ProfileSelector'
 import AllMoviesView from './components/AllMoviesView'
 import Toast from './components/Toast'
 import './App.css'
+import img1 from './assets/1.jpg'
+import img2 from './assets/2.jpg'
+import img3 from './assets/3.jpg'
+import img4 from './assets/4.jpg'
+import img5 from './assets/5.jpg'
+import img6 from './assets/6.jpg'
+import img8 from './assets/8.jpg'
+import img9 from './assets/9.jpg'
+import img10 from './assets/10.jpg'
+import img11 from './assets/11.jpg'
+import img12 from './assets/12.jpg'
+import img13 from './assets/13.jpg'
+import img14 from './assets/14.jpg'
+import img15 from './assets/15.jpg'
+import img16 from './assets/16.jpg'
+import img17 from './assets/17.jpg'
+import img18 from './assets/18.jpg'
+import img19 from './assets/19.jpg'
+import img20 from './assets/20.jpg'
+import img21 from './assets/21.jpg'
+import img22 from './assets/22.jpg'
+import img23 from './assets/23.jpg'
+import img25 from './assets/25.jpg'
+import img26 from './assets/26.jpg'
+import img27 from './assets/27.jpg'
+import img28 from './assets/28.jpg'
+import img29 from './assets/29.jpg'
+import img30 from './assets/30.jpg'
 import spiderManImg from './assets/32.jpeg'
 import oppenheimerImg from './assets/33.jpeg'
 import laLaLandImg from './assets/34.jpeg'
 
-// Image mapping - maps IDs to image paths
+// Image mapping - maps IDs to imported images
 const imageMap = {
-  1: '/assets/1.jpg',
-  2: '/assets/2.jpg',
-  3: '/assets/3.jpg',
-  4: '/assets/4.jpg',
-  5: '/assets/5.jpg',
-  6: '/assets/6.jpg',
-  8: '/assets/8.jpg',
-  9: '/assets/9.jpg',
-  10: '/assets/10.jpg',
-  11: '/assets/11.jpg',
-  12: '/assets/12.jpg',
-  13: '/assets/13.jpg',
-  14: '/assets/14.jpg',
-  15: '/assets/15.jpg',
-  16: '/assets/16.jpg',
-  17: '/assets/17.jpg',
-  18: '/assets/18.jpg',
-  19: '/assets/19.jpg',
-  20: '/assets/20.jpg',
-  21: '/assets/21.jpg',
-  22: '/assets/22.jpg',
-  23: '/assets/23.jpg',
-  25: '/assets/25.jpg',
-  26: '/assets/26.jpg',
-  27: '/assets/27.jpg',
-  28: '/assets/28.jpg',
-  29: '/assets/29.jpg',
-  30: '/assets/30.jpg',
+  1: img1,
+  2: img2,
+  3: img3,
+  4: img4,
+  5: img5,
+  6: img6,
+  8: img8,
+  9: img9,
+  10: img10,
+  11: img11,
+  12: img12,
+  13: img13,
+  14: img14,
+  15: img15,
+  16: img16,
+  17: img17,
+  18: img18,
+  19: img19,
+  20: img20,
+  21: img21,
+  22: img22,
+  23: img23,
+  25: img25,
+  26: img26,
+  27: img27,
+  28: img28,
+  29: img29,
+  30: img30,
   32: spiderManImg,
   33: oppenheimerImg,
   34: laLaLandImg,
