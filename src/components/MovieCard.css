@@ -1,0 +1,51 @@
+/* MovieCard Styles */
+
+/* Scrollbar styling for expanded content */
+.movie-card-scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.movie-card-scrollable::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.movie-card-scrollable::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.movie-card-scrollable::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* Backdrop overlay */
+.card-backdrop {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Enhanced hover effects for better UX */
+@media (max-width: 768px) {
+  .movie-card-mobile {
+    min-width: 100%;
+  }
+}
