@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/netxclons/",
   build: {
-    outDir: "dist"
+    outDir: "docs"
   }
 });
